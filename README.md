@@ -1,7 +1,9 @@
 🏆我自己做的订阅【每天更新】
 
-全协议通吃：苹果用小火箭，安卓用AnXray，电脑用WinXray
-如果你的代理工具用不了这个订阅，去转换一下即可👉🏻 https://sub.v1.mk/
+全协议通吃的代理工具👇🏻
+苹果用小火箭，安卓用AnXray，电脑用WinXray
+如果你的代理工具无法导入，订阅转换即可👇🏻
+https://sub.v1.mk/
 
 通用节点订阅（翻墙导入）
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/TY
