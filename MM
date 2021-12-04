@@ -5,31 +5,37 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk", server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 2", server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 3", server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 4", server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 5", server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 6", server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 7", server: 84.17.34.8, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FuynHKjkzhBnmcLpaLKm}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 8", server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 9", server: 206.119.115.51, port: 1443, type: ss, cipher: aes-256-gcm, password: !<str> 832167441530}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 10", server: 206.119.115.55, port: 443, type: ss, cipher: aes-256-gcm, password: f56e2142b4d9}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 11", server: n23.emovpn.xyz, port: 44334, type: ss, cipher: chacha20-ietf-poly1305, password: 7f168637-1680-4cd4-9901-d42d59ea679f}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 12", server: yqy2328.china-cdn-net.com, port: 2328, type: ssr, cipher: aes-256-cfb, password: http://cc.ax/, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1620878:SELTdL, obfs-param: data.bilibili.com/630951620878}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 13", server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 14", server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 15", server: hinet.rdns.link, port: 50028, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17916:d6BY5U, obfs-param: 5bf6517916.software-download.microsoft.com}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 16", server: hinet.rdns.link, port: 50027, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17916:d6BY5U, obfs-param: 5bf6517916.software-download.microsoft.com}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 17", server: hinet.rdns.link, port: 50025, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17916:d6BY5U, obfs-param: 5bf6517916.software-download.microsoft.com}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 18", server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 19", server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 20", server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 21", server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 22", server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 23", server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 24", server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: "[12.3] TG最强白嫖频道@Jsnzk 25", server: 38.114.114.68, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk", server: 122.192.154.54, port: 3389, type: trojan, password: ba4fedf8c217c146, skip-cert-verify: false}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 2", server: 43.240.206.227, port: 3389, type: trojan, password: ba4fedf8c217c146, skip-cert-verify: false}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 3", server: gdgz.marslink.icu, port: 41108, type: ss, cipher: chacha20-ietf-poly1305, password: dad2f2ea-dd17-4f57-8b09-56a7499719de}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 4", server: gdgz.marslink.icu, port: 41109, type: ss, cipher: chacha20-ietf-poly1305, password: dad2f2ea-dd17-4f57-8b09-56a7499719de}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 5", server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 6", server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 7", server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 8", server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 9", server: 84.17.34.8, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FuynHKjkzhBnmcLpaLKm}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 10", server: 169.38.107.52, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 11", server: 206.119.115.55, port: 443, type: ss, cipher: aes-256-gcm, password: f56e2142b4d9}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 12", server: 206.119.115.51, port: 1443, type: ss, cipher: aes-256-gcm, password: !<str> 832167441530}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 13", server: 47.243.165.95, port: 443, type: ss, cipher: aes-256-gcm, password: 08e1a848a855}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 14", server: 59.125.98.29, port: 443, type: ss, cipher: aes-256-gcm, password: a22c307e4a69}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 15", server: 27.124.44.5, port: 443, type: ss, cipher: aes-256-gcm, password: fcc1e096fe7f}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 16", server: 60.250.137.213, port: 443, type: ss, cipher: aes-256-gcm, password: 90185e1ac1cf}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 17", server: 47.245.14.32, port: 443, type: ss, cipher: aes-256-gcm, password: c801c5b9bb6b}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 18", server: 211.23.141.52, port: 443, type: ss, cipher: aes-256-gcm, password: bff483ac1406}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 19", server: 60.251.66.116, port: 443, type: ss, cipher: aes-256-gcm, password: fa1461264001}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 20", server: n23.emovpn.xyz, port: 44334, type: ss, cipher: chacha20-ietf-poly1305, password: 7f168637-1680-4cd4-9901-d42d59ea679f}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 21", server: hinet.rdns.link, port: 50024, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17916:d6BY5U, obfs-param: 5bf6517916.software-download.microsoft.com}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 22", server: hinet.rdns.link, port: 50023, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17916:d6BY5U, obfs-param: 5bf6517916.software-download.microsoft.com}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 23", server: hinet.rdns.link, port: 50025, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17916:d6BY5U, obfs-param: 5bf6517916.software-download.microsoft.com}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 24", server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 25", server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 26", server: n23.emovpn.xyz, port: 44334, type: ss, cipher: chacha20-ietf-poly1305, password: 7f168637-1680-4cd4-9901-d42d59ea679f}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 27", server: hinet.rdns.link, port: 50027, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17916:d6BY5U, obfs-param: 5bf6517916.software-download.microsoft.com}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 28", server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 29", server: hinet.rdns.link, port: 50028, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17916:d6BY5U, obfs-param: 5bf6517916.software-download.microsoft.com}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 30", server: hinet.rdns.link, port: 50025, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17916:d6BY5U, obfs-param: 5bf6517916.software-download.microsoft.com}
+  - {name: "[12.4] TG最强白嫖频道@Jsnzk 31", server: 84.17.34.8, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FuynHKjkzhBnmcLpaLKm}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -47,61 +53,73 @@ proxy-groups:
   - name: 🚀 手动选择
     type: select
     proxies:
-      - "[12.3] TG最强白嫖频道@Jsnzk"
-      - "[12.3] TG最强白嫖频道@Jsnzk 2"
-      - "[12.3] TG最强白嫖频道@Jsnzk 3"
-      - "[12.3] TG最强白嫖频道@Jsnzk 4"
-      - "[12.3] TG最强白嫖频道@Jsnzk 5"
-      - "[12.3] TG最强白嫖频道@Jsnzk 6"
-      - "[12.3] TG最强白嫖频道@Jsnzk 7"
-      - "[12.3] TG最强白嫖频道@Jsnzk 8"
-      - "[12.3] TG最强白嫖频道@Jsnzk 9"
-      - "[12.3] TG最强白嫖频道@Jsnzk 10"
-      - "[12.3] TG最强白嫖频道@Jsnzk 11"
-      - "[12.3] TG最强白嫖频道@Jsnzk 12"
-      - "[12.3] TG最强白嫖频道@Jsnzk 13"
-      - "[12.3] TG最强白嫖频道@Jsnzk 14"
-      - "[12.3] TG最强白嫖频道@Jsnzk 15"
-      - "[12.3] TG最强白嫖频道@Jsnzk 16"
-      - "[12.3] TG最强白嫖频道@Jsnzk 17"
-      - "[12.3] TG最强白嫖频道@Jsnzk 18"
-      - "[12.3] TG最强白嫖频道@Jsnzk 19"
-      - "[12.3] TG最强白嫖频道@Jsnzk 20"
-      - "[12.3] TG最强白嫖频道@Jsnzk 21"
-      - "[12.3] TG最强白嫖频道@Jsnzk 22"
-      - "[12.3] TG最强白嫖频道@Jsnzk 23"
-      - "[12.3] TG最强白嫖频道@Jsnzk 24"
-      - "[12.3] TG最强白嫖频道@Jsnzk 25"
+      - "[12.4] TG最强白嫖频道@Jsnzk"
+      - "[12.4] TG最强白嫖频道@Jsnzk 2"
+      - "[12.4] TG最强白嫖频道@Jsnzk 3"
+      - "[12.4] TG最强白嫖频道@Jsnzk 4"
+      - "[12.4] TG最强白嫖频道@Jsnzk 5"
+      - "[12.4] TG最强白嫖频道@Jsnzk 6"
+      - "[12.4] TG最强白嫖频道@Jsnzk 7"
+      - "[12.4] TG最强白嫖频道@Jsnzk 8"
+      - "[12.4] TG最强白嫖频道@Jsnzk 9"
+      - "[12.4] TG最强白嫖频道@Jsnzk 10"
+      - "[12.4] TG最强白嫖频道@Jsnzk 11"
+      - "[12.4] TG最强白嫖频道@Jsnzk 12"
+      - "[12.4] TG最强白嫖频道@Jsnzk 13"
+      - "[12.4] TG最强白嫖频道@Jsnzk 14"
+      - "[12.4] TG最强白嫖频道@Jsnzk 15"
+      - "[12.4] TG最强白嫖频道@Jsnzk 16"
+      - "[12.4] TG最强白嫖频道@Jsnzk 17"
+      - "[12.4] TG最强白嫖频道@Jsnzk 18"
+      - "[12.4] TG最强白嫖频道@Jsnzk 19"
+      - "[12.4] TG最强白嫖频道@Jsnzk 20"
+      - "[12.4] TG最强白嫖频道@Jsnzk 21"
+      - "[12.4] TG最强白嫖频道@Jsnzk 22"
+      - "[12.4] TG最强白嫖频道@Jsnzk 23"
+      - "[12.4] TG最强白嫖频道@Jsnzk 24"
+      - "[12.4] TG最强白嫖频道@Jsnzk 25"
+      - "[12.4] TG最强白嫖频道@Jsnzk 26"
+      - "[12.4] TG最强白嫖频道@Jsnzk 27"
+      - "[12.4] TG最强白嫖频道@Jsnzk 28"
+      - "[12.4] TG最强白嫖频道@Jsnzk 29"
+      - "[12.4] TG最强白嫖频道@Jsnzk 30"
+      - "[12.4] TG最强白嫖频道@Jsnzk 31"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "[12.3] TG最强白嫖频道@Jsnzk"
-      - "[12.3] TG最强白嫖频道@Jsnzk 2"
-      - "[12.3] TG最强白嫖频道@Jsnzk 3"
-      - "[12.3] TG最强白嫖频道@Jsnzk 4"
-      - "[12.3] TG最强白嫖频道@Jsnzk 5"
-      - "[12.3] TG最强白嫖频道@Jsnzk 6"
-      - "[12.3] TG最强白嫖频道@Jsnzk 7"
-      - "[12.3] TG最强白嫖频道@Jsnzk 8"
-      - "[12.3] TG最强白嫖频道@Jsnzk 9"
-      - "[12.3] TG最强白嫖频道@Jsnzk 10"
-      - "[12.3] TG最强白嫖频道@Jsnzk 11"
-      - "[12.3] TG最强白嫖频道@Jsnzk 12"
-      - "[12.3] TG最强白嫖频道@Jsnzk 13"
-      - "[12.3] TG最强白嫖频道@Jsnzk 14"
-      - "[12.3] TG最强白嫖频道@Jsnzk 15"
-      - "[12.3] TG最强白嫖频道@Jsnzk 16"
-      - "[12.3] TG最强白嫖频道@Jsnzk 17"
-      - "[12.3] TG最强白嫖频道@Jsnzk 18"
-      - "[12.3] TG最强白嫖频道@Jsnzk 19"
-      - "[12.3] TG最强白嫖频道@Jsnzk 20"
-      - "[12.3] TG最强白嫖频道@Jsnzk 21"
-      - "[12.3] TG最强白嫖频道@Jsnzk 22"
-      - "[12.3] TG最强白嫖频道@Jsnzk 23"
-      - "[12.3] TG最强白嫖频道@Jsnzk 24"
-      - "[12.3] TG最强白嫖频道@Jsnzk 25"
+      - "[12.4] TG最强白嫖频道@Jsnzk"
+      - "[12.4] TG最强白嫖频道@Jsnzk 2"
+      - "[12.4] TG最强白嫖频道@Jsnzk 3"
+      - "[12.4] TG最强白嫖频道@Jsnzk 4"
+      - "[12.4] TG最强白嫖频道@Jsnzk 5"
+      - "[12.4] TG最强白嫖频道@Jsnzk 6"
+      - "[12.4] TG最强白嫖频道@Jsnzk 7"
+      - "[12.4] TG最强白嫖频道@Jsnzk 8"
+      - "[12.4] TG最强白嫖频道@Jsnzk 9"
+      - "[12.4] TG最强白嫖频道@Jsnzk 10"
+      - "[12.4] TG最强白嫖频道@Jsnzk 11"
+      - "[12.4] TG最强白嫖频道@Jsnzk 12"
+      - "[12.4] TG最强白嫖频道@Jsnzk 13"
+      - "[12.4] TG最强白嫖频道@Jsnzk 14"
+      - "[12.4] TG最强白嫖频道@Jsnzk 15"
+      - "[12.4] TG最强白嫖频道@Jsnzk 16"
+      - "[12.4] TG最强白嫖频道@Jsnzk 17"
+      - "[12.4] TG最强白嫖频道@Jsnzk 18"
+      - "[12.4] TG最强白嫖频道@Jsnzk 19"
+      - "[12.4] TG最强白嫖频道@Jsnzk 20"
+      - "[12.4] TG最强白嫖频道@Jsnzk 21"
+      - "[12.4] TG最强白嫖频道@Jsnzk 22"
+      - "[12.4] TG最强白嫖频道@Jsnzk 23"
+      - "[12.4] TG最强白嫖频道@Jsnzk 24"
+      - "[12.4] TG最强白嫖频道@Jsnzk 25"
+      - "[12.4] TG最强白嫖频道@Jsnzk 26"
+      - "[12.4] TG最强白嫖频道@Jsnzk 27"
+      - "[12.4] TG最强白嫖频道@Jsnzk 28"
+      - "[12.4] TG最强白嫖频道@Jsnzk 29"
+      - "[12.4] TG最强白嫖频道@Jsnzk 30"
+      - "[12.4] TG最强白嫖频道@Jsnzk 31"
   - name: 🎯 国内网络
     type: select
     proxies:
