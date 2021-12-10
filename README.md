@@ -8,3 +8,8 @@ https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/TY
 
 🎬Clash节点订阅（翻墙导入）
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/MM
+
+🎬订阅转换
+https://sub.v1.mk/
+
+🏆订阅链接永久不变，节点每天都会更新，请设置成1天更新1次，如果用不了就把订阅转换成你相对应的代理工具即可
