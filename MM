@@ -5,59 +5,54 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "[12.9] TG频道@Jsnzk", server: z0003.security-cloudfront-cdn.com, port: 20215, type: ssr, cipher: aes-256-cfb, password: TEPdkCwisxrZJFcm, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive"}
-  - {name: "[12.9] TG频道@Jsnzk 2", server: in03.node.beer, port: 6003, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 3", server: in01.node.beer, port: 6001, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 4", server: iepl01.node.beer, port: 6001, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 5", server: iepl01.node.beer, port: 6006, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 6", server: in04.node.beer, port: 6003, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 7", server: iepl02.node.beer, port: 6001, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 8", server: iepl03.node.beer, port: 6006, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 9", server: in02.node.beer, port: 6003, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 10", server: in03.node.beer, port: 6033, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 11", server: in05.node.beer, port: 6032, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 12", server: in02.node.beer, port: 6021, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 13", server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: "[12.9] TG频道@Jsnzk 14", server: 84.17.34.8, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FuynHKjkzhBnmcLpaLKm}
-  - {name: "[12.9] TG频道@Jsnzk 15", server: 38.114.114.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: "[12.9] TG频道@Jsnzk 16", server: 38.114.114.69, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: "[12.9] TG频道@Jsnzk 17", server: 38.75.136.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: "[12.9] TG频道@Jsnzk 18", server: 38.75.136.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: "[12.9] TG频道@Jsnzk 19", server: 47.243.165.95, port: 443, type: ss, cipher: aes-256-gcm, password: 08e1a848a855}
-  - {name: "[12.9] TG频道@Jsnzk 20", server: 206.119.115.55, port: 443, type: ss, cipher: aes-256-gcm, password: f56e2142b4d9}
-  - {name: "[12.9] TG频道@Jsnzk 21", server: 27.124.44.5, port: 443, type: ss, cipher: aes-256-gcm, password: fcc1e096fe7f}
-  - {name: "[12.9] TG频道@Jsnzk 22", server: yqy2322.china-cdn-net.com, port: 2322, type: ssr, cipher: aes-256-cfb, password: http://cc.ax/, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1666875:tjQIPC, obfs-param: data.bilibili.com/aff3c1666875}
-  - {name: "[12.9] TG频道@Jsnzk 23", server: yqy2328.china-cdn-net.com, port: 2328, type: ssr, cipher: aes-256-cfb, password: http://cc.ax/, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1666875:tjQIPC, obfs-param: data.bilibili.com/aff3c1666875}
-  - {name: "[12.9] TG频道@Jsnzk 24", server: in01.node.beer, port: 6001, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 25", server: in03.node.beer, port: 6003, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 26", server: in02.node.beer, port: 6003, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 27", server: in03.node.beer, port: 6003, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 28", server: iepl01.node.beer, port: 6001, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 29", server: in01.node.beer, port: 6001, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 30", server: in02.node.beer, port: 6003, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 31", server: iepl03.node.beer, port: 6006, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 32", server: iepl01.node.beer, port: 6006, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 33", server: yqy2323.china-cdn-net.com, port: 2323, type: ssr, cipher: aes-256-cfb, password: http://cc.ax/, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1666875:tjQIPC, obfs-param: data.bilibili.com/aff3c1666875}
-  - {name: "[12.9] TG频道@Jsnzk 34", server: in04.node.beer, port: 6031, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 35", server: in05.node.beer, port: 6032, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 36", server: in02.node.beer, port: 6021, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 37", server: in05.node.beer, port: 6001, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 38", server: yqy2326.china-cdn-net.com, port: 2326, type: ssr, cipher: aes-256-cfb, password: http://cc.ax/, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1666875:tjQIPC, obfs-param: data.bilibili.com/aff3c1666875}
-  - {name: "[12.9] TG频道@Jsnzk 39", server: in05.node.beer, port: 6032, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 40", server: in04.node.beer, port: 6003, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 41", server: in05.node.beer, port: 6041, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 42", server: yqy2328.china-cdn-net.com, port: 2328, type: ssr, cipher: aes-256-cfb, password: http://cc.ax/, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1666875:tjQIPC, obfs-param: data.bilibili.com/aff3c1666875}
-  - {name: "[12.9] TG频道@Jsnzk 43", server: in05.node.beer, port: 6001, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 44", server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: "[12.9] TG频道@Jsnzk 45", server: z0003.security-cloudfront-cdn.com, port: 20215, type: ssr, cipher: aes-256-cfb, password: TEPdkCwisxrZJFcm, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive"}
-  - {name: "[12.9] TG频道@Jsnzk 46", server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: "[12.9] TG频道@Jsnzk 47", server: iepl02.node.beer, port: 6001, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 48", server: hinet.rdns.link, port: 50023, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17916:d6BY5U, obfs-param: 5bf6517916.software-download.microsoft.com}
-  - {name: "[12.9] TG频道@Jsnzk 49", server: hinet.rdns.link, port: 50025, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17916:d6BY5U, obfs-param: 5bf6517916.software-download.microsoft.com}
-  - {name: "[12.9] TG频道@Jsnzk 50", server: in03.node.beer, port: 6033, type: ssr, cipher: chacha20-ietf, password: kcssr.id, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 62483:PNJXdM, obfs-param: d551c62483.apple.com}
-  - {name: "[12.9] TG频道@Jsnzk 51", server: hinet.rdns.link, port: 50025, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17916:d6BY5U, obfs-param: 5bf6517916.software-download.microsoft.com}
-  - {name: "[12.9] TG频道@Jsnzk 52", server: hinet.rdns.link, port: 50024, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17916:d6BY5U, obfs-param: 5bf6517916.software-download.microsoft.com}
-  - {name: "[12.9] TG频道@Jsnzk 53", server: hinet.rdns.link, port: 50028, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17916:d6BY5U, obfs-param: 5bf6517916.software-download.microsoft.com}
+  - {name: "[12.10] TG频道@Jsnzk", server: 58.32.10.70, port: 11424, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat}
+  - {name: "[12.10] TG频道@Jsnzk 2", server: 183.232.56.106, port: 11807, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat}
+  - {name: "[12.10] TG频道@Jsnzk 3", server: 42.157.196.104, port: 20083, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 266810:qOFw2RxegW, obfs-param: t.me/vpnhat}
+  - {name: "[12.10] TG频道@Jsnzk 4", server: 42.157.196.102, port: 10467, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 266810:qOFw2RxegW, obfs-param: t.me/vpnhat}
+  - {name: "[12.10] TG频道@Jsnzk 5", server: 42.157.196.102, port: 10832, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 266810:qOFw2RxegW, obfs-param: t.me/vpnhat}
+  - {name: "[12.10] TG频道@Jsnzk 6", server: 42.157.196.102, port: 10210, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 266315:Bqx5e8jiJh, obfs-param: t.me/vpnhat}
+  - {name: "[12.10] TG频道@Jsnzk 7", server: 42.157.196.102, port: 10865, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 266522:lQUALXIc0P, obfs-param: t.me/vpnhat}
+  - {name: "[12.10] TG频道@Jsnzk 8", server: 42.157.196.104, port: 20192, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 266315:Bqx5e8jiJh, obfs-param: t.me/vpnhat}
+  - {name: "[12.10] TG频道@Jsnzk 9", server: n22.emovpn.xyz, port: 44333, type: ss, cipher: chacha20-ietf-poly1305, password: 7f168637-1680-4cd4-9901-d42d59ea679f}
+  - {name: "[12.10] TG频道@Jsnzk 10", server: gdgz.marslink.icu, port: 41103, type: ss, cipher: chacha20-ietf-poly1305, password: b5f4d04f-2654-4987-b8bd-f49fa7f9c573}
+  - {name: "[12.10] TG频道@Jsnzk 11", server: gdgz.marslink.icu, port: 41102, type: ss, cipher: chacha20-ietf-poly1305, password: b5f4d04f-2654-4987-b8bd-f49fa7f9c573}
+  - {name: "[12.10] TG频道@Jsnzk 12", server: ys.shenseven.xyz, port: 15443, type: ss, cipher: chacha20-ietf-poly1305, password: 68a0f7b6-9954-4b8c-9e95-41b0d526fa78}
+  - {name: "[12.10] TG频道@Jsnzk 13", server: qs25.shenseven.xyz, port: 2096, type: ss, cipher: chacha20-ietf-poly1305, password: 68a0f7b6-9954-4b8c-9e95-41b0d526fa78}
+  - {name: "[12.10] TG频道@Jsnzk 14", server: qs22.shenseven.xyz, port: 2096, type: ss, cipher: chacha20-ietf-poly1305, password: 68a0f7b6-9954-4b8c-9e95-41b0d526fa78}
+  - {name: "[12.10] TG频道@Jsnzk 15", server: zn.shenseven.xyz, port: 29443, type: ss, cipher: chacha20-ietf-poly1305, password: 68a0f7b6-9954-4b8c-9e95-41b0d526fa78}
+  - {name: "[12.10] TG频道@Jsnzk 16", server: z00001.security-cloudfront-cdn.com, port: 20215, type: ssr, cipher: aes-256-cfb, password: TEPdkCwisxrZJFcm, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive"}
+  - {name: "[12.10] TG频道@Jsnzk 17", server: z00041.security-cloudfront-cdn.com, port: 20215, type: ssr, cipher: aes-256-cfb, password: TEPdkCwisxrZJFcm, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive"}
+  - {name: "[12.10] TG频道@Jsnzk 18", server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: "[12.10] TG频道@Jsnzk 19", server: 84.17.34.8, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FuynHKjkzhBnmcLpaLKm}
+  - {name: "[12.10] TG频道@Jsnzk 20", server: 38.75.136.102, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "[12.10] TG频道@Jsnzk 21", server: 38.75.136.102, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[12.10] TG频道@Jsnzk 22", server: 38.75.136.102, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "[12.10] TG频道@Jsnzk 23", server: 38.75.136.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "[12.10] TG频道@Jsnzk 24", server: 47.243.165.95, port: 443, type: ss, cipher: aes-256-gcm, password: 08e1a848a855}
+  - {name: "[12.10] TG频道@Jsnzk 25", server: 27.124.44.5, port: 443, type: ss, cipher: aes-256-gcm, password: fcc1e096fe7f}
+  - {name: "[12.10] TG频道@Jsnzk 26", server: 59.125.98.29, port: 443, type: ss, cipher: aes-256-gcm, password: a22c307e4a69}
+  - {name: "[12.10] TG频道@Jsnzk 27", server: 60.251.66.116, port: 443, type: ss, cipher: aes-256-gcm, password: fa1461264001}
+  - {name: "[12.10] TG频道@Jsnzk 28", server: 203.69.53.127, port: 443, type: ss, cipher: aes-256-gcm, password: c5c41727af83}
+  - {name: "[12.10] TG频道@Jsnzk 29", server: yqy2321.china-cdn-net.com, port: 2321, type: ssr, cipher: aes-256-cfb, password: http://cc.ax/, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1666875:tjQIPC, obfs-param: data.bilibili.com/aff3c1666875}
+  - {name: "[12.10] TG频道@Jsnzk 30", server: yqy2324.china-cdn-net.com, port: 2324, type: ssr, cipher: aes-256-cfb, password: http://cc.ax/, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1666875:tjQIPC, obfs-param: data.bilibili.com/aff3c1666875}
+  - {name: "[12.10] TG频道@Jsnzk 31", server: hinet.rdns.link, port: 50028, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 18290:9WA1gd, obfs-param: e3cf218290.software-download.microsoft.com}
+  - {name: "[12.10] TG频道@Jsnzk 32", server: hinet.rdns.link, port: 50026, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 18290:9WA1gd, obfs-param: e3cf218290.software-download.microsoft.com}
+  - {name: "[12.10] TG频道@Jsnzk 33", server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: "[12.10] TG频道@Jsnzk 34", server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: "[12.10] TG频道@Jsnzk 35", server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: "[12.10] TG频道@Jsnzk 36", server: 84.17.34.8, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FuynHKjkzhBnmcLpaLKm}
+  - {name: "[12.10] TG频道@Jsnzk 37", server: hinet.rdns.link, port: 50028, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17916:d6BY5U, obfs-param: 5bf6517916.software-download.microsoft.com}
+  - {name: "[12.10] TG频道@Jsnzk 38", server: hinet.rdns.link, port: 50025, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17916:d6BY5U, obfs-param: 5bf6517916.software-download.microsoft.com}
+  - {name: "[12.10] TG频道@Jsnzk 39", server: hinet.rdns.link, port: 50025, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17916:d6BY5U, obfs-param: 5bf6517916.software-download.microsoft.com}
+  - {name: "[12.10] TG频道@Jsnzk 40", server: hinet.rdns.link, port: 50024, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17916:d6BY5U, obfs-param: 5bf6517916.software-download.microsoft.com}
+  - {name: "[12.10] TG频道@Jsnzk 41", server: z0003.security-cloudfront-cdn.com, port: 20215, type: ssr, cipher: aes-256-cfb, password: TEPdkCwisxrZJFcm, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive"}
+  - {name: "[12.10] TG频道@Jsnzk 42", server: 117.28.243.132, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
+  - {name: "[12.10] TG频道@Jsnzk 43", server: 47.243.165.95, port: 443, type: ss, cipher: aes-256-gcm, password: 08e1a848a855}
+  - {name: "[12.10] TG频道@Jsnzk 44", server: 47.243.165.95, port: 443, type: ss, cipher: aes-256-gcm, password: 08e1a848a855}
+  - {name: "[12.10] TG频道@Jsnzk 45", server: 47.243.165.95, port: 443, type: ss, cipher: aes-256-gcm, password: 08e1a848a855}
+  - {name: "[12.10] TG频道@Jsnzk 46", server: 47.243.165.95, port: 443, type: ss, cipher: aes-256-gcm, password: 08e1a848a855}
+  - {name: "[12.10] TG频道@Jsnzk 47", server: 47.243.165.95, port: 443, type: ss, cipher: aes-256-gcm, password: 08e1a848a855}
+  - {name: "[12.10] TG频道@Jsnzk 48", server: 47.243.165.95, port: 443, type: ss, cipher: aes-256-gcm, password: 08e1a848a855}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -67,117 +62,107 @@ proxy-groups:
   - name: 🚀 手动选择节点
     type: select
     proxies:
-      - "[12.9] TG频道@Jsnzk"
-      - "[12.9] TG频道@Jsnzk 2"
-      - "[12.9] TG频道@Jsnzk 3"
-      - "[12.9] TG频道@Jsnzk 4"
-      - "[12.9] TG频道@Jsnzk 5"
-      - "[12.9] TG频道@Jsnzk 6"
-      - "[12.9] TG频道@Jsnzk 7"
-      - "[12.9] TG频道@Jsnzk 8"
-      - "[12.9] TG频道@Jsnzk 9"
-      - "[12.9] TG频道@Jsnzk 10"
-      - "[12.9] TG频道@Jsnzk 11"
-      - "[12.9] TG频道@Jsnzk 12"
-      - "[12.9] TG频道@Jsnzk 13"
-      - "[12.9] TG频道@Jsnzk 14"
-      - "[12.9] TG频道@Jsnzk 15"
-      - "[12.9] TG频道@Jsnzk 16"
-      - "[12.9] TG频道@Jsnzk 17"
-      - "[12.9] TG频道@Jsnzk 18"
-      - "[12.9] TG频道@Jsnzk 19"
-      - "[12.9] TG频道@Jsnzk 20"
-      - "[12.9] TG频道@Jsnzk 21"
-      - "[12.9] TG频道@Jsnzk 22"
-      - "[12.9] TG频道@Jsnzk 23"
-      - "[12.9] TG频道@Jsnzk 24"
-      - "[12.9] TG频道@Jsnzk 25"
-      - "[12.9] TG频道@Jsnzk 26"
-      - "[12.9] TG频道@Jsnzk 27"
-      - "[12.9] TG频道@Jsnzk 28"
-      - "[12.9] TG频道@Jsnzk 29"
-      - "[12.9] TG频道@Jsnzk 30"
-      - "[12.9] TG频道@Jsnzk 31"
-      - "[12.9] TG频道@Jsnzk 32"
-      - "[12.9] TG频道@Jsnzk 33"
-      - "[12.9] TG频道@Jsnzk 34"
-      - "[12.9] TG频道@Jsnzk 35"
-      - "[12.9] TG频道@Jsnzk 36"
-      - "[12.9] TG频道@Jsnzk 37"
-      - "[12.9] TG频道@Jsnzk 38"
-      - "[12.9] TG频道@Jsnzk 39"
-      - "[12.9] TG频道@Jsnzk 40"
-      - "[12.9] TG频道@Jsnzk 41"
-      - "[12.9] TG频道@Jsnzk 42"
-      - "[12.9] TG频道@Jsnzk 43"
-      - "[12.9] TG频道@Jsnzk 44"
-      - "[12.9] TG频道@Jsnzk 45"
-      - "[12.9] TG频道@Jsnzk 46"
-      - "[12.9] TG频道@Jsnzk 47"
-      - "[12.9] TG频道@Jsnzk 48"
-      - "[12.9] TG频道@Jsnzk 49"
-      - "[12.9] TG频道@Jsnzk 50"
-      - "[12.9] TG频道@Jsnzk 51"
-      - "[12.9] TG频道@Jsnzk 52"
-      - "[12.9] TG频道@Jsnzk 53"
+      - "[12.10] TG频道@Jsnzk"
+      - "[12.10] TG频道@Jsnzk 2"
+      - "[12.10] TG频道@Jsnzk 3"
+      - "[12.10] TG频道@Jsnzk 4"
+      - "[12.10] TG频道@Jsnzk 5"
+      - "[12.10] TG频道@Jsnzk 6"
+      - "[12.10] TG频道@Jsnzk 7"
+      - "[12.10] TG频道@Jsnzk 8"
+      - "[12.10] TG频道@Jsnzk 9"
+      - "[12.10] TG频道@Jsnzk 10"
+      - "[12.10] TG频道@Jsnzk 11"
+      - "[12.10] TG频道@Jsnzk 12"
+      - "[12.10] TG频道@Jsnzk 13"
+      - "[12.10] TG频道@Jsnzk 14"
+      - "[12.10] TG频道@Jsnzk 15"
+      - "[12.10] TG频道@Jsnzk 16"
+      - "[12.10] TG频道@Jsnzk 17"
+      - "[12.10] TG频道@Jsnzk 18"
+      - "[12.10] TG频道@Jsnzk 19"
+      - "[12.10] TG频道@Jsnzk 20"
+      - "[12.10] TG频道@Jsnzk 21"
+      - "[12.10] TG频道@Jsnzk 22"
+      - "[12.10] TG频道@Jsnzk 23"
+      - "[12.10] TG频道@Jsnzk 24"
+      - "[12.10] TG频道@Jsnzk 25"
+      - "[12.10] TG频道@Jsnzk 26"
+      - "[12.10] TG频道@Jsnzk 27"
+      - "[12.10] TG频道@Jsnzk 28"
+      - "[12.10] TG频道@Jsnzk 29"
+      - "[12.10] TG频道@Jsnzk 30"
+      - "[12.10] TG频道@Jsnzk 31"
+      - "[12.10] TG频道@Jsnzk 32"
+      - "[12.10] TG频道@Jsnzk 33"
+      - "[12.10] TG频道@Jsnzk 34"
+      - "[12.10] TG频道@Jsnzk 35"
+      - "[12.10] TG频道@Jsnzk 36"
+      - "[12.10] TG频道@Jsnzk 37"
+      - "[12.10] TG频道@Jsnzk 38"
+      - "[12.10] TG频道@Jsnzk 39"
+      - "[12.10] TG频道@Jsnzk 40"
+      - "[12.10] TG频道@Jsnzk 41"
+      - "[12.10] TG频道@Jsnzk 42"
+      - "[12.10] TG频道@Jsnzk 43"
+      - "[12.10] TG频道@Jsnzk 44"
+      - "[12.10] TG频道@Jsnzk 45"
+      - "[12.10] TG频道@Jsnzk 46"
+      - "[12.10] TG频道@Jsnzk 47"
+      - "[12.10] TG频道@Jsnzk 48"
   - name: ♻️ 自动选择节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "[12.9] TG频道@Jsnzk"
-      - "[12.9] TG频道@Jsnzk 2"
-      - "[12.9] TG频道@Jsnzk 3"
-      - "[12.9] TG频道@Jsnzk 4"
-      - "[12.9] TG频道@Jsnzk 5"
-      - "[12.9] TG频道@Jsnzk 6"
-      - "[12.9] TG频道@Jsnzk 7"
-      - "[12.9] TG频道@Jsnzk 8"
-      - "[12.9] TG频道@Jsnzk 9"
-      - "[12.9] TG频道@Jsnzk 10"
-      - "[12.9] TG频道@Jsnzk 11"
-      - "[12.9] TG频道@Jsnzk 12"
-      - "[12.9] TG频道@Jsnzk 13"
-      - "[12.9] TG频道@Jsnzk 14"
-      - "[12.9] TG频道@Jsnzk 15"
-      - "[12.9] TG频道@Jsnzk 16"
-      - "[12.9] TG频道@Jsnzk 17"
-      - "[12.9] TG频道@Jsnzk 18"
-      - "[12.9] TG频道@Jsnzk 19"
-      - "[12.9] TG频道@Jsnzk 20"
-      - "[12.9] TG频道@Jsnzk 21"
-      - "[12.9] TG频道@Jsnzk 22"
-      - "[12.9] TG频道@Jsnzk 23"
-      - "[12.9] TG频道@Jsnzk 24"
-      - "[12.9] TG频道@Jsnzk 25"
-      - "[12.9] TG频道@Jsnzk 26"
-      - "[12.9] TG频道@Jsnzk 27"
-      - "[12.9] TG频道@Jsnzk 28"
-      - "[12.9] TG频道@Jsnzk 29"
-      - "[12.9] TG频道@Jsnzk 30"
-      - "[12.9] TG频道@Jsnzk 31"
-      - "[12.9] TG频道@Jsnzk 32"
-      - "[12.9] TG频道@Jsnzk 33"
-      - "[12.9] TG频道@Jsnzk 34"
-      - "[12.9] TG频道@Jsnzk 35"
-      - "[12.9] TG频道@Jsnzk 36"
-      - "[12.9] TG频道@Jsnzk 37"
-      - "[12.9] TG频道@Jsnzk 38"
-      - "[12.9] TG频道@Jsnzk 39"
-      - "[12.9] TG频道@Jsnzk 40"
-      - "[12.9] TG频道@Jsnzk 41"
-      - "[12.9] TG频道@Jsnzk 42"
-      - "[12.9] TG频道@Jsnzk 43"
-      - "[12.9] TG频道@Jsnzk 44"
-      - "[12.9] TG频道@Jsnzk 45"
-      - "[12.9] TG频道@Jsnzk 46"
-      - "[12.9] TG频道@Jsnzk 47"
-      - "[12.9] TG频道@Jsnzk 48"
-      - "[12.9] TG频道@Jsnzk 49"
-      - "[12.9] TG频道@Jsnzk 50"
-      - "[12.9] TG频道@Jsnzk 51"
-      - "[12.9] TG频道@Jsnzk 52"
-      - "[12.9] TG频道@Jsnzk 53"
+      - "[12.10] TG频道@Jsnzk"
+      - "[12.10] TG频道@Jsnzk 2"
+      - "[12.10] TG频道@Jsnzk 3"
+      - "[12.10] TG频道@Jsnzk 4"
+      - "[12.10] TG频道@Jsnzk 5"
+      - "[12.10] TG频道@Jsnzk 6"
+      - "[12.10] TG频道@Jsnzk 7"
+      - "[12.10] TG频道@Jsnzk 8"
+      - "[12.10] TG频道@Jsnzk 9"
+      - "[12.10] TG频道@Jsnzk 10"
+      - "[12.10] TG频道@Jsnzk 11"
+      - "[12.10] TG频道@Jsnzk 12"
+      - "[12.10] TG频道@Jsnzk 13"
+      - "[12.10] TG频道@Jsnzk 14"
+      - "[12.10] TG频道@Jsnzk 15"
+      - "[12.10] TG频道@Jsnzk 16"
+      - "[12.10] TG频道@Jsnzk 17"
+      - "[12.10] TG频道@Jsnzk 18"
+      - "[12.10] TG频道@Jsnzk 19"
+      - "[12.10] TG频道@Jsnzk 20"
+      - "[12.10] TG频道@Jsnzk 21"
+      - "[12.10] TG频道@Jsnzk 22"
+      - "[12.10] TG频道@Jsnzk 23"
+      - "[12.10] TG频道@Jsnzk 24"
+      - "[12.10] TG频道@Jsnzk 25"
+      - "[12.10] TG频道@Jsnzk 26"
+      - "[12.10] TG频道@Jsnzk 27"
+      - "[12.10] TG频道@Jsnzk 28"
+      - "[12.10] TG频道@Jsnzk 29"
+      - "[12.10] TG频道@Jsnzk 30"
+      - "[12.10] TG频道@Jsnzk 31"
+      - "[12.10] TG频道@Jsnzk 32"
+      - "[12.10] TG频道@Jsnzk 33"
+      - "[12.10] TG频道@Jsnzk 34"
+      - "[12.10] TG频道@Jsnzk 35"
+      - "[12.10] TG频道@Jsnzk 36"
+      - "[12.10] TG频道@Jsnzk 37"
+      - "[12.10] TG频道@Jsnzk 38"
+      - "[12.10] TG频道@Jsnzk 39"
+      - "[12.10] TG频道@Jsnzk 40"
+      - "[12.10] TG频道@Jsnzk 41"
+      - "[12.10] TG频道@Jsnzk 42"
+      - "[12.10] TG频道@Jsnzk 43"
+      - "[12.10] TG频道@Jsnzk 44"
+      - "[12.10] TG频道@Jsnzk 45"
+      - "[12.10] TG频道@Jsnzk 46"
+      - "[12.10] TG频道@Jsnzk 47"
+      - "[12.10] TG频道@Jsnzk 48"
   - name: 🎯 国内网站设置
     type: select
     proxies:
