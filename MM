@@ -13,7 +13,6 @@ proxies:
   - {name: "[12.14] TG频道@Jsnzk 6", server: 27.124.44.5, port: 443, type: ss, cipher: aes-256-gcm, password: fcc1e096fe7f}
   - {name: "[12.14] TG频道@Jsnzk 7", server: 203.69.243.19, port: 443, type: ss, cipher: aes-256-gcm, password: cb411c16c567}
   - {name: "[12.14] TG频道@Jsnzk 8", server: 59.125.98.29, port: 443, type: ss, cipher: aes-256-gcm, password: a22c307e4a69}
-  - {name: "[12.14] TG频道@Jsnzk 9", server: jp11.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: jp11.holiganfan.com, skip-cert-verify: false}
   - {name: "[12.14] TG频道@Jsnzk 10", server: yqy2323.china-cdn-net.com, port: 2323, type: ssr, cipher: aes-256-cfb, password: http://cc.ax/, protocol: auth_aes128_md5, obfs: plain, protocol-param: 1620878:SELTdL, obfs-param: data.bilibili.com/630951620878}
   - {name: "[12.14] TG频道@Jsnzk 11", server: hinet.rdns.link, port: 50024, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 18290:9WA1gd, obfs-param: e3cf218290.software-download.microsoft.com}
   - {name: "[12.14] TG频道@Jsnzk 12", server: hinet.rdns.link, port: 50026, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 18290:9WA1gd, obfs-param: e3cf218290.software-download.microsoft.com}
