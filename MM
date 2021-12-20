@@ -5,54 +5,95 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "[12.19] 🅥 TG频道@Jsnzk", server: aezee4ea.nodeinfo.icu, port: 6011, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 2", server: ac5mahye.nodeinfo.icu, port: 6007, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 3", server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 4", server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 5", server: 118.107.244.110, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 6", server: inu8azei.nodeinfo.icu, port: 6017, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 7", server: queigh5h.nodeinfo.icu, port: 6004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 8", server: iqu5ujio.nodeinfo.icu, port: 7006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 9", server: vieghei0.nodeinfo.icu, port: 6018, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 10", server: ie2ohyai.nodeinfo.icu, port: 6008, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 11", server: aezee4ea.nodeinfo.icu, port: 6011, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 12", server: phahw1un.nodeinfo.icu, port: 6001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 13", server: quohvop8.nodeinfo.icu, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 14", server: wu3gadam.nodeinfo.icu, port: 6003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 15", server: jaibio5c.nodeinfo.icu, port: 7007, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 16", server: aquoh8xi.nodeinfo.icu, port: 6022, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 17", server: aemoo9wi.nodeinfo.icu, port: 7008, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 18", server: feeco8oo.nodeinfo.icu, port: 7002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 19", server: aic5ucu1.nodeinfo.icu, port: 6021, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 20", server: ti5mulix.nodeinfo.icu, port: 6020, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 21", server: eevahb9v.nodeinfo.icu, port: 6009, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 22", server: ota2wier.nodeinfo.icu, port: 7001, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 23", server: koo3cuiz.nodeinfo.icu, port: 6013, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 24", server: utai3iw1.nodeinfo.icu, port: 6014, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 25", server: vureuva3.nodeinfo.icu, port: 7004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 26", server: thoo6foh.nodeinfo.icu, port: 6010, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 27", server: ahheil5u.nodeinfo.icu, port: 6012, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 28", server: aebek1oo.nodeinfo.icu, port: 1001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 29", server: ooqu0eep.nodeinfo.icu, port: 6002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 30", server: phu8iej2.nodeinfo.icu, port: 6015, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 31", server: eu7aish2.nodeinfo.icu, port: 1004, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 32", server: phoo6aem.nodeinfo.icu, port: 1002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 33", server: keixai3u.nodeinfo.icu, port: 6005, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 34", server: ac5mahye.nodeinfo.icu, port: 6007, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 35", server: eer9iqu7.nodeinfo.icu, port: 1003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 36", server: roog5tee.nodeinfo.icu, port: 3202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 37", server: aigha5ay.nodeinfo.icu, port: 3201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 38", server: meiphen0.nodeinfo.icu, port: 1126, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 39", server: 47.243.165.95, port: 443, type: ss, cipher: aes-256-gcm, password: 08e1a848a855}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 40", server: 47.245.14.32, port: 443, type: ss, cipher: aes-256-gcm, password: c801c5b9bb6b}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 41", server: baip.huhu.icu, port: 19999, type: trojan, password: b520a49d-ea4c-49cf-a08b-7c54793cbeab, sni: sp8888.top, skip-cert-verify: false}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 42", server: baip.huhu.icu, port: 19999, type: trojan, password: b520a49d-ea4c-49cf-a08b-7c54793cbeab, sni: sp8888.top, skip-cert-verify: false}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 43", server: baip.huhu.icu, port: 19999, type: trojan, password: b520a49d-ea4c-49cf-a08b-7c54793cbeab, sni: sp8888.top, skip-cert-verify: false}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 44", server: baip.huhu.icu, port: 19999, type: trojan, password: b520a49d-ea4c-49cf-a08b-7c54793cbeab, sni: sp8888.top, skip-cert-verify: false}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 45", server: baip.huhu.icu, port: 19999, type: trojan, password: b520a49d-ea4c-49cf-a08b-7c54793cbeab, sni: sp8888.top, skip-cert-verify: false}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 46", server: baip.huhu.icu, port: 19999, type: trojan, password: b520a49d-ea4c-49cf-a08b-7c54793cbeab, sni: sp8888.top, skip-cert-verify: false}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 47", server: baip.huhu.icu, port: 19999, type: trojan, password: b520a49d-ea4c-49cf-a08b-7c54793cbeab, sni: sp8888.top, skip-cert-verify: false}
-  - {name: "[12.19] 🅥 TG频道@Jsnzk 48", server: baip.huhu.icu, port: 19999, type: trojan, password: b520a49d-ea4c-49cf-a08b-7c54793cbeab, sni: sp8888.top, skip-cert-verify: false}
+  - {name: "[12.20] 电报频道@Jsnzk", server: phahw1un.nodeinfo.icu, port: 6001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 2", server: queigh5h.nodeinfo.icu, port: 6004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 3", server: iux7shis.nodeinfo.icu, port: 6006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 4", server: ooqu0eep.nodeinfo.icu, port: 6002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 5", server: phu8iej2.nodeinfo.icu, port: 6015, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 6", server: aic5ucu1.nodeinfo.icu, port: 6021, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 7", server: phoo6aem.nodeinfo.icu, port: 1002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 8", server: quohvop8.nodeinfo.icu, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 9", server: utai3iw1.nodeinfo.icu, port: 6014, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 10", server: eek8yahv.nodeinfo.icu, port: 2110, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 11", server: hee4bieh.nodeinfo.icu, port: 2107, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 12", server: ohg5xoot.nodeinfo.icu, port: 2002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 13", server: ua2ahgha.nodeinfo.icu, port: 2101, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 14", server: aebek1oo.nodeinfo.icu, port: 1001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 15", server: eer9iqu7.nodeinfo.icu, port: 1003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 16", server: ac5mahye.nodeinfo.icu, port: 6007, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 17", server: axeed0uh.nodeinfo.icu, port: 2003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 18", server: dua4kie5.nodeinfo.icu, port: 6301, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 19", server: keixai3u.nodeinfo.icu, port: 6005, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 20", server: aigha5ay.nodeinfo.icu, port: 3201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 21", server: lia7nosh.nodeinfo.icu, port: 2105, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 22", server: eu7aish2.nodeinfo.icu, port: 1004, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 23", server: uthaez1i.nodeinfo.icu, port: 1113, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 24", server: aesohch8.nodeinfo.icu, port: 1111, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 25", server: eu1she3s.nodeinfo.icu, port: 700, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 26", server: roog5tee.nodeinfo.icu, port: 3202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 27", server: wi6ru6zo.nodeinfo.icu, port: 6302, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 28", server: ainetu9e.nodeinfo.icu, port: 3204, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 29", server: eim1kae9.nodeinfo.icu, port: 3203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 30", server: 162.14.19.69, port: 2111, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 31", server: 162.14.19.69, port: 7006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 32", server: 162.14.19.69, port: 6011, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 33", server: 162.14.17.218, port: 6004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 34", server: 120.232.215.251, port: 6001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 35", server: 120.232.215.251, port: 6006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 36", server: 120.232.214.247, port: 6001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 37", server: 162.14.22.171, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 38", server: 162.14.22.171, port: 6005, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 39", server: 162.14.17.218, port: 6021, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 40", server: 120.232.215.251, port: 6002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 41", server: 162.14.19.69, port: 6012, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 42", server: 162.14.17.218, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 43", server: 120.232.215.251, port: 6015, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 44", server: 120.232.214.247, port: 7002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 45", server: 120.232.214.247, port: 6006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 46", server: 120.232.215.196, port: 7002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 47", server: 162.14.22.171, port: 6014, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 48", server: 162.14.22.171, port: 6003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 49", server: 162.14.19.69, port: 6018, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 50", server: 120.232.214.247, port: 6015, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 51", server: 162.14.22.171, port: 6004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 52", server: ota2wier.nodeinfo.icu, port: 7001, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 53", server: quohvop8.nodeinfo.icu, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 54", server: feeco8oo.nodeinfo.icu, port: 7002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 55", server: wu3gadam.nodeinfo.icu, port: 6003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 56", server: loe5aeno.nodeinfo.icu, port: 520, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 57", server: queigh5h.nodeinfo.icu, port: 6004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 58", server: jaibio5c.nodeinfo.icu, port: 7007, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 59", server: iqu5ujio.nodeinfo.icu, port: 7006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 60", server: inu8azei.nodeinfo.icu, port: 6017, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 61", server: koo3cuiz.nodeinfo.icu, port: 6013, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 62", server: ooqu0eep.nodeinfo.icu, port: 6002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 63", server: eim1kae9.nodeinfo.icu, port: 3203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 64", server: ainetu9e.nodeinfo.icu, port: 3204, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 65", server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "[12.20] 电报频道@Jsnzk 66", server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "[12.20] 电报频道@Jsnzk 67", server: inu8azei.nodeinfo.icu, port: 6017, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 68", server: 120.232.215.251, port: 6004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: t.me/vpnhat}
+  - {name: "[12.20] 电报频道@Jsnzk 69", server: queigh5h.nodeinfo.icu, port: 6004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 70", server: vieghei0.nodeinfo.icu, port: 6018, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 71", server: quohvop8.nodeinfo.icu, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 72", server: ooqu0eep.nodeinfo.icu, port: 6002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 73", server: ahheil5u.nodeinfo.icu, port: 6012, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 74", server: phu8iej2.nodeinfo.icu, port: 6015, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 75", server: phahw1un.nodeinfo.icu, port: 6001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 76", server: keixai3u.nodeinfo.icu, port: 6005, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 77", server: aezee4ea.nodeinfo.icu, port: 6011, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 78", server: wu3gadam.nodeinfo.icu, port: 6003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 79", server: utai3iw1.nodeinfo.icu, port: 6014, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 80", server: koo3cuiz.nodeinfo.icu, port: 6013, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 81", server: roog5tee.nodeinfo.icu, port: 3202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 82", server: eu7aish2.nodeinfo.icu, port: 1004, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 83", server: aic5ucu1.nodeinfo.icu, port: 6021, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 84", server: aebek1oo.nodeinfo.icu, port: 1001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 85", server: phoo6aem.nodeinfo.icu, port: 1002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 86", server: eer9iqu7.nodeinfo.icu, port: 1003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: "[12.20] 电报频道@Jsnzk 87", server: 47.243.165.95, port: 443, type: ss, cipher: aes-256-gcm, password: 08e1a848a855}
+  - {name: "[12.20] 电报频道@Jsnzk 88", server: 47.245.14.32, port: 443, type: ss, cipher: aes-256-gcm, password: c801c5b9bb6b}
+  - {name: "[12.20] 电报频道@Jsnzk 89", server: 220.130.18.217, port: 443, type: ss, cipher: aes-256-gcm, password: 973d3abdc9b2}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -70,107 +111,189 @@ proxy-groups:
   - name: 🚀 手动选择
     type: select
     proxies:
-      - "[12.19] 🅥 TG频道@Jsnzk"
-      - "[12.19] 🅥 TG频道@Jsnzk 2"
-      - "[12.19] 🅥 TG频道@Jsnzk 3"
-      - "[12.19] 🅥 TG频道@Jsnzk 4"
-      - "[12.19] 🅥 TG频道@Jsnzk 5"
-      - "[12.19] 🅥 TG频道@Jsnzk 6"
-      - "[12.19] 🅥 TG频道@Jsnzk 7"
-      - "[12.19] 🅥 TG频道@Jsnzk 8"
-      - "[12.19] 🅥 TG频道@Jsnzk 9"
-      - "[12.19] 🅥 TG频道@Jsnzk 10"
-      - "[12.19] 🅥 TG频道@Jsnzk 11"
-      - "[12.19] 🅥 TG频道@Jsnzk 12"
-      - "[12.19] 🅥 TG频道@Jsnzk 13"
-      - "[12.19] 🅥 TG频道@Jsnzk 14"
-      - "[12.19] 🅥 TG频道@Jsnzk 15"
-      - "[12.19] 🅥 TG频道@Jsnzk 16"
-      - "[12.19] 🅥 TG频道@Jsnzk 17"
-      - "[12.19] 🅥 TG频道@Jsnzk 18"
-      - "[12.19] 🅥 TG频道@Jsnzk 19"
-      - "[12.19] 🅥 TG频道@Jsnzk 20"
-      - "[12.19] 🅥 TG频道@Jsnzk 21"
-      - "[12.19] 🅥 TG频道@Jsnzk 22"
-      - "[12.19] 🅥 TG频道@Jsnzk 23"
-      - "[12.19] 🅥 TG频道@Jsnzk 24"
-      - "[12.19] 🅥 TG频道@Jsnzk 25"
-      - "[12.19] 🅥 TG频道@Jsnzk 26"
-      - "[12.19] 🅥 TG频道@Jsnzk 27"
-      - "[12.19] 🅥 TG频道@Jsnzk 28"
-      - "[12.19] 🅥 TG频道@Jsnzk 29"
-      - "[12.19] 🅥 TG频道@Jsnzk 30"
-      - "[12.19] 🅥 TG频道@Jsnzk 31"
-      - "[12.19] 🅥 TG频道@Jsnzk 32"
-      - "[12.19] 🅥 TG频道@Jsnzk 33"
-      - "[12.19] 🅥 TG频道@Jsnzk 34"
-      - "[12.19] 🅥 TG频道@Jsnzk 35"
-      - "[12.19] 🅥 TG频道@Jsnzk 36"
-      - "[12.19] 🅥 TG频道@Jsnzk 37"
-      - "[12.19] 🅥 TG频道@Jsnzk 38"
-      - "[12.19] 🅥 TG频道@Jsnzk 39"
-      - "[12.19] 🅥 TG频道@Jsnzk 40"
-      - "[12.19] 🅥 TG频道@Jsnzk 41"
-      - "[12.19] 🅥 TG频道@Jsnzk 42"
-      - "[12.19] 🅥 TG频道@Jsnzk 43"
-      - "[12.19] 🅥 TG频道@Jsnzk 44"
-      - "[12.19] 🅥 TG频道@Jsnzk 45"
-      - "[12.19] 🅥 TG频道@Jsnzk 46"
-      - "[12.19] 🅥 TG频道@Jsnzk 47"
-      - "[12.19] 🅥 TG频道@Jsnzk 48"
+      - "[12.20] 电报频道@Jsnzk"
+      - "[12.20] 电报频道@Jsnzk 2"
+      - "[12.20] 电报频道@Jsnzk 3"
+      - "[12.20] 电报频道@Jsnzk 4"
+      - "[12.20] 电报频道@Jsnzk 5"
+      - "[12.20] 电报频道@Jsnzk 6"
+      - "[12.20] 电报频道@Jsnzk 7"
+      - "[12.20] 电报频道@Jsnzk 8"
+      - "[12.20] 电报频道@Jsnzk 9"
+      - "[12.20] 电报频道@Jsnzk 10"
+      - "[12.20] 电报频道@Jsnzk 11"
+      - "[12.20] 电报频道@Jsnzk 12"
+      - "[12.20] 电报频道@Jsnzk 13"
+      - "[12.20] 电报频道@Jsnzk 14"
+      - "[12.20] 电报频道@Jsnzk 15"
+      - "[12.20] 电报频道@Jsnzk 16"
+      - "[12.20] 电报频道@Jsnzk 17"
+      - "[12.20] 电报频道@Jsnzk 18"
+      - "[12.20] 电报频道@Jsnzk 19"
+      - "[12.20] 电报频道@Jsnzk 20"
+      - "[12.20] 电报频道@Jsnzk 21"
+      - "[12.20] 电报频道@Jsnzk 22"
+      - "[12.20] 电报频道@Jsnzk 23"
+      - "[12.20] 电报频道@Jsnzk 24"
+      - "[12.20] 电报频道@Jsnzk 25"
+      - "[12.20] 电报频道@Jsnzk 26"
+      - "[12.20] 电报频道@Jsnzk 27"
+      - "[12.20] 电报频道@Jsnzk 28"
+      - "[12.20] 电报频道@Jsnzk 29"
+      - "[12.20] 电报频道@Jsnzk 30"
+      - "[12.20] 电报频道@Jsnzk 31"
+      - "[12.20] 电报频道@Jsnzk 32"
+      - "[12.20] 电报频道@Jsnzk 33"
+      - "[12.20] 电报频道@Jsnzk 34"
+      - "[12.20] 电报频道@Jsnzk 35"
+      - "[12.20] 电报频道@Jsnzk 36"
+      - "[12.20] 电报频道@Jsnzk 37"
+      - "[12.20] 电报频道@Jsnzk 38"
+      - "[12.20] 电报频道@Jsnzk 39"
+      - "[12.20] 电报频道@Jsnzk 40"
+      - "[12.20] 电报频道@Jsnzk 41"
+      - "[12.20] 电报频道@Jsnzk 42"
+      - "[12.20] 电报频道@Jsnzk 43"
+      - "[12.20] 电报频道@Jsnzk 44"
+      - "[12.20] 电报频道@Jsnzk 45"
+      - "[12.20] 电报频道@Jsnzk 46"
+      - "[12.20] 电报频道@Jsnzk 47"
+      - "[12.20] 电报频道@Jsnzk 48"
+      - "[12.20] 电报频道@Jsnzk 49"
+      - "[12.20] 电报频道@Jsnzk 50"
+      - "[12.20] 电报频道@Jsnzk 51"
+      - "[12.20] 电报频道@Jsnzk 52"
+      - "[12.20] 电报频道@Jsnzk 53"
+      - "[12.20] 电报频道@Jsnzk 54"
+      - "[12.20] 电报频道@Jsnzk 55"
+      - "[12.20] 电报频道@Jsnzk 56"
+      - "[12.20] 电报频道@Jsnzk 57"
+      - "[12.20] 电报频道@Jsnzk 58"
+      - "[12.20] 电报频道@Jsnzk 59"
+      - "[12.20] 电报频道@Jsnzk 60"
+      - "[12.20] 电报频道@Jsnzk 61"
+      - "[12.20] 电报频道@Jsnzk 62"
+      - "[12.20] 电报频道@Jsnzk 63"
+      - "[12.20] 电报频道@Jsnzk 64"
+      - "[12.20] 电报频道@Jsnzk 65"
+      - "[12.20] 电报频道@Jsnzk 66"
+      - "[12.20] 电报频道@Jsnzk 67"
+      - "[12.20] 电报频道@Jsnzk 68"
+      - "[12.20] 电报频道@Jsnzk 69"
+      - "[12.20] 电报频道@Jsnzk 70"
+      - "[12.20] 电报频道@Jsnzk 71"
+      - "[12.20] 电报频道@Jsnzk 72"
+      - "[12.20] 电报频道@Jsnzk 73"
+      - "[12.20] 电报频道@Jsnzk 74"
+      - "[12.20] 电报频道@Jsnzk 75"
+      - "[12.20] 电报频道@Jsnzk 76"
+      - "[12.20] 电报频道@Jsnzk 77"
+      - "[12.20] 电报频道@Jsnzk 78"
+      - "[12.20] 电报频道@Jsnzk 79"
+      - "[12.20] 电报频道@Jsnzk 80"
+      - "[12.20] 电报频道@Jsnzk 81"
+      - "[12.20] 电报频道@Jsnzk 82"
+      - "[12.20] 电报频道@Jsnzk 83"
+      - "[12.20] 电报频道@Jsnzk 84"
+      - "[12.20] 电报频道@Jsnzk 85"
+      - "[12.20] 电报频道@Jsnzk 86"
+      - "[12.20] 电报频道@Jsnzk 87"
+      - "[12.20] 电报频道@Jsnzk 88"
+      - "[12.20] 电报频道@Jsnzk 89"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "[12.19] 🅥 TG频道@Jsnzk"
-      - "[12.19] 🅥 TG频道@Jsnzk 2"
-      - "[12.19] 🅥 TG频道@Jsnzk 3"
-      - "[12.19] 🅥 TG频道@Jsnzk 4"
-      - "[12.19] 🅥 TG频道@Jsnzk 5"
-      - "[12.19] 🅥 TG频道@Jsnzk 6"
-      - "[12.19] 🅥 TG频道@Jsnzk 7"
-      - "[12.19] 🅥 TG频道@Jsnzk 8"
-      - "[12.19] 🅥 TG频道@Jsnzk 9"
-      - "[12.19] 🅥 TG频道@Jsnzk 10"
-      - "[12.19] 🅥 TG频道@Jsnzk 11"
-      - "[12.19] 🅥 TG频道@Jsnzk 12"
-      - "[12.19] 🅥 TG频道@Jsnzk 13"
-      - "[12.19] 🅥 TG频道@Jsnzk 14"
-      - "[12.19] 🅥 TG频道@Jsnzk 15"
-      - "[12.19] 🅥 TG频道@Jsnzk 16"
-      - "[12.19] 🅥 TG频道@Jsnzk 17"
-      - "[12.19] 🅥 TG频道@Jsnzk 18"
-      - "[12.19] 🅥 TG频道@Jsnzk 19"
-      - "[12.19] 🅥 TG频道@Jsnzk 20"
-      - "[12.19] 🅥 TG频道@Jsnzk 21"
-      - "[12.19] 🅥 TG频道@Jsnzk 22"
-      - "[12.19] 🅥 TG频道@Jsnzk 23"
-      - "[12.19] 🅥 TG频道@Jsnzk 24"
-      - "[12.19] 🅥 TG频道@Jsnzk 25"
-      - "[12.19] 🅥 TG频道@Jsnzk 26"
-      - "[12.19] 🅥 TG频道@Jsnzk 27"
-      - "[12.19] 🅥 TG频道@Jsnzk 28"
-      - "[12.19] 🅥 TG频道@Jsnzk 29"
-      - "[12.19] 🅥 TG频道@Jsnzk 30"
-      - "[12.19] 🅥 TG频道@Jsnzk 31"
-      - "[12.19] 🅥 TG频道@Jsnzk 32"
-      - "[12.19] 🅥 TG频道@Jsnzk 33"
-      - "[12.19] 🅥 TG频道@Jsnzk 34"
-      - "[12.19] 🅥 TG频道@Jsnzk 35"
-      - "[12.19] 🅥 TG频道@Jsnzk 36"
-      - "[12.19] 🅥 TG频道@Jsnzk 37"
-      - "[12.19] 🅥 TG频道@Jsnzk 38"
-      - "[12.19] 🅥 TG频道@Jsnzk 39"
-      - "[12.19] 🅥 TG频道@Jsnzk 40"
-      - "[12.19] 🅥 TG频道@Jsnzk 41"
-      - "[12.19] 🅥 TG频道@Jsnzk 42"
-      - "[12.19] 🅥 TG频道@Jsnzk 43"
-      - "[12.19] 🅥 TG频道@Jsnzk 44"
-      - "[12.19] 🅥 TG频道@Jsnzk 45"
-      - "[12.19] 🅥 TG频道@Jsnzk 46"
-      - "[12.19] 🅥 TG频道@Jsnzk 47"
-      - "[12.19] 🅥 TG频道@Jsnzk 48"
+      - "[12.20] 电报频道@Jsnzk"
+      - "[12.20] 电报频道@Jsnzk 2"
+      - "[12.20] 电报频道@Jsnzk 3"
+      - "[12.20] 电报频道@Jsnzk 4"
+      - "[12.20] 电报频道@Jsnzk 5"
+      - "[12.20] 电报频道@Jsnzk 6"
+      - "[12.20] 电报频道@Jsnzk 7"
+      - "[12.20] 电报频道@Jsnzk 8"
+      - "[12.20] 电报频道@Jsnzk 9"
+      - "[12.20] 电报频道@Jsnzk 10"
+      - "[12.20] 电报频道@Jsnzk 11"
+      - "[12.20] 电报频道@Jsnzk 12"
+      - "[12.20] 电报频道@Jsnzk 13"
+      - "[12.20] 电报频道@Jsnzk 14"
+      - "[12.20] 电报频道@Jsnzk 15"
+      - "[12.20] 电报频道@Jsnzk 16"
+      - "[12.20] 电报频道@Jsnzk 17"
+      - "[12.20] 电报频道@Jsnzk 18"
+      - "[12.20] 电报频道@Jsnzk 19"
+      - "[12.20] 电报频道@Jsnzk 20"
+      - "[12.20] 电报频道@Jsnzk 21"
+      - "[12.20] 电报频道@Jsnzk 22"
+      - "[12.20] 电报频道@Jsnzk 23"
+      - "[12.20] 电报频道@Jsnzk 24"
+      - "[12.20] 电报频道@Jsnzk 25"
+      - "[12.20] 电报频道@Jsnzk 26"
+      - "[12.20] 电报频道@Jsnzk 27"
+      - "[12.20] 电报频道@Jsnzk 28"
+      - "[12.20] 电报频道@Jsnzk 29"
+      - "[12.20] 电报频道@Jsnzk 30"
+      - "[12.20] 电报频道@Jsnzk 31"
+      - "[12.20] 电报频道@Jsnzk 32"
+      - "[12.20] 电报频道@Jsnzk 33"
+      - "[12.20] 电报频道@Jsnzk 34"
+      - "[12.20] 电报频道@Jsnzk 35"
+      - "[12.20] 电报频道@Jsnzk 36"
+      - "[12.20] 电报频道@Jsnzk 37"
+      - "[12.20] 电报频道@Jsnzk 38"
+      - "[12.20] 电报频道@Jsnzk 39"
+      - "[12.20] 电报频道@Jsnzk 40"
+      - "[12.20] 电报频道@Jsnzk 41"
+      - "[12.20] 电报频道@Jsnzk 42"
+      - "[12.20] 电报频道@Jsnzk 43"
+      - "[12.20] 电报频道@Jsnzk 44"
+      - "[12.20] 电报频道@Jsnzk 45"
+      - "[12.20] 电报频道@Jsnzk 46"
+      - "[12.20] 电报频道@Jsnzk 47"
+      - "[12.20] 电报频道@Jsnzk 48"
+      - "[12.20] 电报频道@Jsnzk 49"
+      - "[12.20] 电报频道@Jsnzk 50"
+      - "[12.20] 电报频道@Jsnzk 51"
+      - "[12.20] 电报频道@Jsnzk 52"
+      - "[12.20] 电报频道@Jsnzk 53"
+      - "[12.20] 电报频道@Jsnzk 54"
+      - "[12.20] 电报频道@Jsnzk 55"
+      - "[12.20] 电报频道@Jsnzk 56"
+      - "[12.20] 电报频道@Jsnzk 57"
+      - "[12.20] 电报频道@Jsnzk 58"
+      - "[12.20] 电报频道@Jsnzk 59"
+      - "[12.20] 电报频道@Jsnzk 60"
+      - "[12.20] 电报频道@Jsnzk 61"
+      - "[12.20] 电报频道@Jsnzk 62"
+      - "[12.20] 电报频道@Jsnzk 63"
+      - "[12.20] 电报频道@Jsnzk 64"
+      - "[12.20] 电报频道@Jsnzk 65"
+      - "[12.20] 电报频道@Jsnzk 66"
+      - "[12.20] 电报频道@Jsnzk 67"
+      - "[12.20] 电报频道@Jsnzk 68"
+      - "[12.20] 电报频道@Jsnzk 69"
+      - "[12.20] 电报频道@Jsnzk 70"
+      - "[12.20] 电报频道@Jsnzk 71"
+      - "[12.20] 电报频道@Jsnzk 72"
+      - "[12.20] 电报频道@Jsnzk 73"
+      - "[12.20] 电报频道@Jsnzk 74"
+      - "[12.20] 电报频道@Jsnzk 75"
+      - "[12.20] 电报频道@Jsnzk 76"
+      - "[12.20] 电报频道@Jsnzk 77"
+      - "[12.20] 电报频道@Jsnzk 78"
+      - "[12.20] 电报频道@Jsnzk 79"
+      - "[12.20] 电报频道@Jsnzk 80"
+      - "[12.20] 电报频道@Jsnzk 81"
+      - "[12.20] 电报频道@Jsnzk 82"
+      - "[12.20] 电报频道@Jsnzk 83"
+      - "[12.20] 电报频道@Jsnzk 84"
+      - "[12.20] 电报频道@Jsnzk 85"
+      - "[12.20] 电报频道@Jsnzk 86"
+      - "[12.20] 电报频道@Jsnzk 87"
+      - "[12.20] 电报频道@Jsnzk 88"
+      - "[12.20] 电报频道@Jsnzk 89"
   - name: 🎯 国内网络
     type: select
     proxies:
